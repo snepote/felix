@@ -10,9 +10,10 @@ gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.4.5', require: false
 
 group :development, :test do
-  gem 'sqlite3', '1.4.1'
-  gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec',   '~> 3.9'
+  gem 'byebug',                '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec',                 '~> 3.9'
+  gem 'rspec-rails',           '~> 3.9'
+  gem 'sqlite3',               '1.4.1'  
 end
 
 group :development do
