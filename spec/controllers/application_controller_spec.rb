@@ -1,5 +1,3 @@
-require 'rails_helper'
-
 RSpec.describe ApplicationController, type: :controller do
   describe '#hello' do
     it 'renders hello world' do
