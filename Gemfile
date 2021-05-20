@@ -13,7 +13,7 @@ gem "nokogiri",   ">= 1.11"
 group :development, :test do
   gem 'byebug',                '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec',                 '~> 3.9'
-  gem 'rspec-rails',           '~> 3.9'
+  gem 'rspec-rails',           '~> 5.0', '>= 5.0.1'
   gem 'sqlite3',               '1.4.1'
 end
 
